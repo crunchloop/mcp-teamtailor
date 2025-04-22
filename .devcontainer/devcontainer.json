@@ -1,0 +1,31 @@
+{
+  "name": "mcp-teamtailor",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "workspaceFolder": "/workspaces/mcp-teamtailor",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22.12.0"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "28.0.4"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.13.1",
+      "toolsToInstall": "aider-install"
+    }
+  },
+  "postCreateCommand": ".devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
