@@ -2,6 +2,10 @@
 
 The MCP Teamtailor is a Model Context Protocol (MCP) server that provides a simple integration with the [teamtailor api](https://docs.teamtailor.com/).
 
+<a href="https://glama.ai/mcp/servers/@crunchloop/mcp-teamtailor">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@crunchloop/mcp-teamtailor/badge" alt="Teamtailor MCP server" />
+</a>
+
 ## Dependencies
 
 No other dependencies are required to use the MCP Teamtailor server.
