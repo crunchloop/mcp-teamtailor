@@ -1,6 +1,6 @@
 {
   "name": "@crunchloop/mcp-teamtailor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MCP for Teamtailor",
   "private": false,
   "license": "MIT",
@@ -22,7 +22,7 @@
     "dist"
   ],
   "bin": {
-    "teamtailor-mcp": "dist/index.js"
+    "teamtailor-mcp": "bin/teamtailor-mcp"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
